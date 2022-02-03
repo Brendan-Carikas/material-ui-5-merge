@@ -1,4 +1,4 @@
-# MUI + UXPin Merge
+# MUI MERGE CORE COMPONENTS
 
 Integration of [MUI](https://mui.com/) with UXPin Merge Technology.
 
