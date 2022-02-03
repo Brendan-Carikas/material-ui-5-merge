@@ -4,7 +4,7 @@ const boilerplateTheme = {
   palette: {
     mode: "light",
     primary: {
-      main: "#1976d2",
+      main: "#6200EE",
       light: "#42a5f5",
       dark: "#1565c0",
       contrastText: "#ffffff"
@@ -19,4 +19,3 @@ const boilerplateTheme = {
 };
 
 export default boilerplateTheme;
-
