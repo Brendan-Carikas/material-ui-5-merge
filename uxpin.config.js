@@ -18,7 +18,7 @@ module.exports = {
           name: 'Checkboxes',
           include: [
             'src/components/Checkbox/Checkbox.js',
-            'src/components/CheckboxWithLabel/CheckboxWithLabel.js', 
+            'src/components/CheckboxWithLabel/CheckboxWithLabel.js',
             'src/components/CheckboxGroup/CheckboxGroup.js',
           ]
         },
@@ -73,7 +73,7 @@ module.exports = {
             'src/components/Accordion/Accordion.js',
             'src/components/AccordionActions/AccordionActions.js',
             'src/components/AccordionDetails/AccordionDetails.js',
-            'src/components/AccordionSummary/AccordionSummary.js', 
+            'src/components/AccordionSummary/AccordionSummary.js',
           ]
         },
         {
@@ -140,9 +140,10 @@ module.exports = {
             // 'src/components/SpeedDial/SpeedDial.js',
             'src/components/Tab/Tab.js',
             'src/components/Tabs/Tabs.js',
+            'src/components/Workbar/Workbar.tsx',
           ]
         },
-        { 
+        {
           name: 'Data Display',
           include: [
             'src/components/Avatar/Avatar.js',
@@ -162,7 +163,7 @@ module.exports = {
             // 'src/components/FormGroup/FormGroup.js',
             'src/components/FormHelperText/FormHelperText.js',
             'src/components/FormLabel/FormLabel.js',
-          ]  
+          ]
         },
         {
           name: 'Layout',
@@ -174,7 +175,7 @@ module.exports = {
             'src/components/ImageListItem/ImageListItem.js',
             'src/components/ImageListItemBar/ImageListItemBar.js',
             'src/components/Stack/Stack.js',
-          ]  
+          ]
         },
         {
           name: 'Miscellaneous',
@@ -186,7 +187,7 @@ module.exports = {
             'src/components/Collapse/Collapse.js',
             // 'src/components/DatePicker/DatePicker.js',
             "src/components/Image/Image.js",
-            'src/components/InputLabel/InputLabel.js',   
+            'src/components/InputLabel/InputLabel.js',
             'src/components/Skeleton/Skeleton.js',
             // 'src/components/Slider/Slider.js',
             'src/components/Snackbar/Snackbar.js',
