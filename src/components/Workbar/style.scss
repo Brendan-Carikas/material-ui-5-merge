@@ -1,0 +1,53 @@
+@import '../../../styles/variables.scss';
+
+.invotra-workbar {
+  box-shadow:
+    0 2px 1px -1px rgba(0, 0, 0, 0.12),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  height: $invotra-workbar__height;
+  top: 0;
+  z-index: 7;
+
+  &__top {
+    height: $invotra-workbar__height;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 0;
+  }
+
+  &__top-section {
+    display: inline-flex;
+    flex: 1 1 auto;
+    align-items: center;
+    min-width: 0;
+
+    &.left {
+      justify-content: flex-start;
+      order: -1;
+
+      > .invotra-workbar__icon-button {
+        margin-right: 8px;
+      }
+    }
+
+    &.right {
+      justify-content: flex-end;
+      order: 1;
+
+      > .invotra-workbar__icon-button {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  &__logo {
+    height: 24px;
+    width: auto;
+    margin-left: 8px;
+  }
+  &__icon-button {
+    color: $invotra-white-color;
+  }
+}
