@@ -1,0 +1,37 @@
+@import "../../styles/mixins";
+
+@import '../../styles/fonts.scss';
+@import '../../styles/variables.scss';
+
+.invotra-page-title {
+  line-height: 1.1;
+  font-weight: normal;
+  max-width: 1200px;
+  width: 100%;
+  word-wrap: break-word;
+
+  &--default {
+    margin-top: 72px;
+    margin-bottom: 54px;
+
+    @include mui_grid_breakpoint_max(medium-desktop) {
+      margin-top: 34px;
+      margin-bottom: 34px;
+    }
+
+    @include mui_grid_breakpoint_max(large-tablet) {
+      margin-top: 48px;
+      margin-bottom: 38px;
+    }
+
+    @include mui_grid_breakpoint_max(small-tablet) {
+      margin-top: 32px;
+      margin-bottom: 38px;
+    }
+  }
+
+  &--compact {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}

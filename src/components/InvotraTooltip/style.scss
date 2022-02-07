@@ -1,0 +1,10 @@
+.invotra-tooltip {
+  &.MuiTooltip-tooltip {
+    background-color: rgba(0, 0, 0, 0.54);
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+}

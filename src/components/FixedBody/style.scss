@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins';
+
+.invotra-fixed-body {
+  width: 100vw;
+
+  &-inner {
+    margin: auto 200px;
+    width: 100%;
+    max-width: 1040px;
+
+    @include mui_grid_breakpoint_max(medium-desktop) {
+      max-width: 840px;
+      margin: auto 92px;
+    }
+
+    @include mui_grid_breakpoint_max(desktop) {
+      max-width: 840px;
+      margin: auto 60px;
+    }
+
+    @include mui_grid_breakpoint_max(large-tablet) {
+      max-width: 704px;
+      padding-right: 32px;
+      padding-left: 32px;
+      margin: auto 0;
+    }
+
+    @include mui_grid_breakpoint_max(large-handset) {
+      max-width: 382px;
+      padding-right: 16px;
+      padding-left: 16px;
+      margin: auto 0;
+    }
+  }
+
+  &-with-header {
+    margin-top: $invotra-top-app-bar-height;
+  }
+}

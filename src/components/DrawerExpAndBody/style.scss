@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins';
+
+.invotra-drawerexandbody {
+  margin-top: $invotra-top-app-bar-height;
+  display: flex;
+  width: 100%;
+
+  &__without-top-margin {
+    margin-top: 0;
+  }
+
+  &-drawer {
+    box-sizing: border-box;
+    min-width: 256px;
+    width: 256px;
+    word-wrap: break-word;
+  }
+
+  &-grid {
+    margin: 0 32px;
+
+    @include mui_grid_breakpoint_max(medium-desktop) {
+      margin: 0 24px;
+    }
+
+    @include mui_grid_breakpoint_max(desktop) {
+      margin: 0 32px;
+    }
+
+    @include mui_grid_breakpoint_min(medium-desktop) {
+      &-with-bigger-margin {
+        margin: 0 72px;
+      }
+    }
+  }
+}
