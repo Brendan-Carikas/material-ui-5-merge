@@ -1,0 +1,198 @@
+$fonts: '../fonts';
+
+// Libre Franklin
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 200;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 500;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 600;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 200;
+  font-style: italic;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-ExtraLightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-style: italic;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 500;
+  font-style: italic;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 600;
+  font-style: italic;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-style: italic;
+  src: url('#{$fonts}/libre-franklin/LibreFranklin-BoldItalic.ttf');
+}
+
+// Material Icons
+
+@font-face {
+  font-family: 'Material Icons Outlined';
+  src: url('#{$fonts}/material-icons/MaterialIconsOutlined-Regular.otf');
+}
+
+// Roboto Mono
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 200;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 200;
+  font-style: italic;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-ExtraLightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  font-style: italic;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  font-style: italic;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+  font-style: italic;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+  font-style: italic;
+  src: url('#{$fonts}/roboto-mono/static/RobotoMono-BoldItalic.ttf');
+}
+
+// Roboto
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('#{$fonts}/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('#{$fonts}/roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: italic;
+  src: url('#{$fonts}/roboto/Roboto-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: italic;
+  src: url('#{$fonts}/roboto/Roboto-BoldItalic.ttf');
+}
+
+// Ubuntu
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  src: url('#{$fonts}/ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  src: url('#{$fonts}/ubuntu/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-style: italic;
+  src: url('#{$fonts}/ubuntu/Ubuntu-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-style: italic;
+  src: url('#{$fonts}/ubuntu/Ubuntu-BoldItalic.ttf');
+}

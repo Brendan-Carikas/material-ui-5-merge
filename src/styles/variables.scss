@@ -1,0 +1,38 @@
+// invotra specific colors.
+$invotra-primary-main-color: #6200ee;
+$invotra-separator-line-color: #e4e4e4;
+$invotra-blue-color: #113c6e;
+$invotra-orange-color: #c68600;
+$invotra-white-color: #fff;
+$invotra-dark-gray: #121212;
+$invotra-black: #000;
+
+// Component variables.
+$invotra-workbar__height: 56px;
+$invotra-workbar-profile-menu__width: 345px;
+$invotra-sidebar__width: 72px;
+$invotra-top-app-bar-height: 70px;
+$invotra-drawer-width: 256px;
+$invotra-purchase-page-toolbar-height: 80px;
+
+$tab-navigator__height: 48px;
+$tab-navigator__bottom-border: 1px;
+
+// Libre franklin font.
+$mdc-typography-font-family: unquote("'Libre Franklin', sans-serif");
+
+$grid-breakpoints: (
+        min-handset: 319px,
+        small-handset: 359px,
+        medium-handset: 374px,
+        large-handset: 413px,
+        largest-handset: 567px,
+        small-tablet: 639px,
+        medium-tablet: 666px,
+        large-tablet: 768px,
+        medium-content-width: 803px,
+        desktop: 960px,
+        medium-desktop: 1024px,
+        large-desktop: 1279px,
+        wide-desktop: 1439px
+) !default;

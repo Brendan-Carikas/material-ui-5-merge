@@ -1,0 +1,68 @@
+@import "variables";
+
+@mixin ellipsize-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Avatar size mixin.
+@mixin avatar_size($size) {
+  @if $size == xsmall {
+    font-size: 2rem;
+    height: 24px;
+    width: 24px;
+  }
+  @if $size == small {
+    font-size: 2.25rem;
+    height: 100px;
+    width: 100px;
+  }
+  @if $size == medium {
+    font-size: 2.5rem;
+    height: 120px;
+    width: 120px;
+  }
+  @if $size == xmedium {
+    font-size: 3rem;
+    height: 160px;
+    width: 160px;
+  }
+  @if $size == large {
+    font-size: 3.25rem;
+    height: 200px;
+    width: 200px;
+  }
+  @if $size == xlarge {
+    font-size: 4rem;
+    height: 240px;
+    width: 240px;
+  }
+}
+
+@mixin mui_grid_breakpoint_max($point) {
+  @media all and (max-width: map-get($grid-breakpoints, $point)) {
+    @content;
+  }
+}
+@mixin mui_grid_breakpoint_max_device_width($point) {
+  @media all and (max-device-width: map-get($grid-breakpoints, $point)) {
+    @content;
+  }
+}
+@mixin mui_grid_breakpoint_min($point) {
+  @media all and (min-width: map-get($grid-breakpoints, $point) + 1px) {
+    @content;
+  }
+}
+@mixin mui_grid_breakpoint_min_device_width($point) {
+  @media all and (min-device-width: map-get($grid-breakpoints, $point) + 1px) {
+    @content;
+  }
+}
+
+@mixin mui_grid_breakpoint_min_max($min_device, $max_device) {
+  @media all and (min-width: map-get($grid-breakpoints, $min_device) + 1px) and (max-width: map_get($grid-breakpoints, $max_device)) {
+    @content;
+  }
+}
