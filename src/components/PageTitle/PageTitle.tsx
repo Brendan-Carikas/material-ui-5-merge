@@ -18,6 +18,7 @@ export default function PageTitle({
   compact,
   className,
   children,
+  ...props
 }: PageTitleProps) {
   const [variant, setVariant] = useState<TypographyProps['variant']>('h2');
 
@@ -57,6 +58,7 @@ export default function PageTitle({
         compact ? 'invotra-page-title--compact' : 'invotra-page-title--default',
         className,
       )}
+      {...props}
     >
       {children}
     </Typography>
