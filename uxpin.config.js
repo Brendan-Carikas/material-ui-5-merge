@@ -104,7 +104,7 @@ module.exports = {
       {
         name: 'Dialog',
         include: [
-          // 'src/components/Dialog/Dialog.js',
+          'src/components/Dialog/Dialog.js',
           'src/components/DialogActions/DialogActions.js',
           'src/components/DialogContentText/DialogContentText.js',
           'src/components/DialogTitle/DialogTitle.js',
@@ -130,12 +130,12 @@ module.exports = {
           'src/components/BottomNavigation/BottomNavigation.js',
           'src/components/BottomNavigationAction/BottomNavigationAction.js',
           'src/components/Breadcrumbs/Breadcrumbs.js',
-          // 'src/components/Drawer/Drawer.js',
+          'src/components/Drawer/Drawer.js',
           'src/components/Menu/Menu.js',
           'src/components/Link/Link.js',
           'src/components/MenuList/MenuList.js',
           'src/components/MenuItem/MenuItem.js',
-          // 'src/components/Pagination/Pagination.js',
+          'src/components/Pagination/Pagination.js',
           'src/components/Stepper/Stepper.js',
           // 'src/components/SpeedDial/SpeedDial.js',
           'src/components/Tab/Tab.js',
@@ -159,7 +159,7 @@ module.exports = {
         include: [
           'src/components/FormControl/FormControl.js',
           'src/components/FormControlLabel/FormControlLabel.js',
-          // 'src/components/FormGroup/FormGroup.js',
+          'src/components/FormGroup/FormGroup.js',
           'src/components/FormHelperText/FormHelperText.js',
           'src/components/FormLabel/FormLabel.js',
         ]
@@ -181,10 +181,10 @@ module.exports = {
         include: [
           'src/components/Alert/Alert.js',
           'src/components/AlertTitle/AlertTitle.js',
-          // 'src/components/Autocomplete/Autocomplete.js',
+          'src/components/Autocomplete/Autocomplete.js',
           'src/components/Backdrop/Backdrop.js',
           'src/components/Collapse/Collapse.js',
-          // 'src/components/DatePicker/DatePicker.js',
+          'src/components/DatePicker/DatePicker.js',
           "src/components/Image/Image.js",
           'src/components/InputLabel/InputLabel.js',
           'src/components/Skeleton/Skeleton.js',
