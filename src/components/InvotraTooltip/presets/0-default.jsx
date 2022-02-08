@@ -1,11 +1,9 @@
 import React from 'react';
-import { IconButton } from '@mui/material';
+import IconButton from '../../IconButton/IconButton';
 import InvotraTooltip from '../InvotraTooltip';
 
 export default (
   <InvotraTooltip uxpId="invotra-tooltip" title={'Merge'}>
-    <IconButton color={'inherit'}>
-      home
-    </IconButton>
+    <IconButton>home</IconButton>
   </InvotraTooltip>
-);
+)
