@@ -2,8 +2,8 @@ import React from 'react';
 import MUICard from '@mui/material/Card';
 
 interface TestCardProps {
-  children: React.ReactNode;
-  classes: React.CSSProperties;
+  children: JSX.Element;
+  classes: JSX.ElementClass;
   raised: boolean;
   sx: Object;
 }
