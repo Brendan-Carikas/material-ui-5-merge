@@ -201,7 +201,7 @@ module.exports = {
           'src/components/FixedBody/FixedBody.tsx',
           'src/components/InvotraTooltip/InvotraTooltip.tsx',
           'src/components/PageTitle/PageTitle.tsx',
-          'src/components/TestCard/TestCard.tsx'
+          'src/components/TestCard/TestCard.tsx',
         ],
       }
     ],
