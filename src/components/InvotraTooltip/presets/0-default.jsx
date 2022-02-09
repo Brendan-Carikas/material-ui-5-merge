@@ -4,6 +4,6 @@ import InvotraTooltip from '../InvotraTooltip';
 
 export default (
   <InvotraTooltip uxpId="invotra-tooltip" title={'Merge'}>
-    <IconButton>home</IconButton>
+    <IconButton uxpId="Icon-Button-1">home</IconButton>
   </InvotraTooltip>
 )
