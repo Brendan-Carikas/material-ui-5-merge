@@ -8,14 +8,12 @@ export default (
     left={false}
     withBiggerMargin={false}
     drawer={(
-      <div>
-        <p>
-          Drawer data
-        </p>
-      </div>
+      <PageTitle uxpId='page-title-1'>
+        Drawer data
+      </PageTitle>
     )}
   >
-    <PageTitle uxpId='page-title'>
+    <PageTitle uxpId='page-title-2'>
       Content data
     </PageTitle>
   </DrawerExpAndBody>

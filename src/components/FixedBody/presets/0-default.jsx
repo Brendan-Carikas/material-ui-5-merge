@@ -5,7 +5,7 @@ import FixedBody from '../FixedBody';
 export default (
   <FixedBody uxpId="fixed-body">
     <Typography
-      uxpId="1"
+      uxpId="Typography-1"
       variant="h4"
     >
       Test title

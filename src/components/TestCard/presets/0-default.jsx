@@ -8,7 +8,7 @@ import IconButton from '../../IconButton/IconButton';
 import Typography from '../../Typography/Typography';
 
 export default (
-  <TestCard  uxpId="test-card">
+  <TestCard uxpId="test-card">
     <CardContent
       uxpId='Card-Content-1'
       component="div"
