@@ -8,15 +8,18 @@ import IconButton from '../../IconButton/IconButton';
 import Typography from '../../Typography/Typography';
 
 export default (
-  <TestCard>
+  <TestCard  uxpId="test-card">
     <CardContent
+      uxpId='Card-Content-1'
       component="div"
     >
       <CardMedia
+        uxpId='Card-Media-1'
         alt="Cool art"
         height={240}
       />
       <Typography
+        uxpId='Typography-1'
         variant="h4"
         component="div"
         gutterBottom={true}
@@ -25,6 +28,7 @@ export default (
        Thank you
       </Typography>
       <Typography
+        uxpId='Typography-2'
         variant="body2"
         color="text.secondary"
         marginTop="16px"
@@ -35,6 +39,7 @@ export default (
       </Typography>
     </CardContent>
     <CardHeader
+      uxpId='Card-Header-1'
       action="none"
       avatar="R"
       subheader="December 6, 2021"
@@ -42,14 +47,16 @@ export default (
       title="Dorothy Whitehead"
       ariaLabel="add"
     />
-    <CardActionArea />
-    <CardActions>
+    <CardActionArea uxpId='Card-Action-Area-1' />
+    <CardActions uxpId='Card-Action-1'>
       <IconButton
+        uxpId="Icon-Button-1"
         ariaLabel="add accessibility text"
       >
         thumb_up
       </IconButton>
       <IconButton
+        uxpId="Icon-Button-2"
         ariaLabel="add accessibility text"
       >
         bookmark
