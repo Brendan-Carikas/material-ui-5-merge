@@ -202,6 +202,7 @@ module.exports = {
           'src/components/InvotraTooltip/InvotraTooltip.tsx',
           'src/components/PageTitle/PageTitle.tsx',
           'src/components/TestCard/TestCard.tsx',
+          'src/components/DataGrid/DataGrid.tsx',
         ],
       }
     ],
