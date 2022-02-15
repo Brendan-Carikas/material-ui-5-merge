@@ -2,23 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { default as DrawerColAndBodyExample } from '../../../Bart-components/DrawerColAndBody/DrawerColAndBody';
 
-function DrawerColAndBody(children,
-  left,
-  drawer,
-  withBiggerMargin,
-  centered) {
+function DrawerColAndBody(props) {
   return (
     <DrawerColAndBodyExample
-      left={left}
-      drawer={drawer}
-      withBiggerMargin={withBiggerMargin}
-      centered={centered}
+      left={props.left}
+      drawer={props.drawer}
+      withBiggerMargin={props.withBiggerMargin}
+      centered={props.centered}
     >
-      { children }
+      {props.children}
     </DrawerColAndBodyExample>
   );
 }
-
 DrawerColAndBody.propTypes = {
   children: PropTypes.node,
   centered: PropTypes.bool,
