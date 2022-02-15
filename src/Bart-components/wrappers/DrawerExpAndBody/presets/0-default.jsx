@@ -1,12 +1,13 @@
 import React from 'react';
-import DrawerColAndBody from '../DrawerColAndBody';
+import DrawerExpAndBody from '../DrawerExpAndBody';
 import PageTitle from '../../PageTitle/PageTitle';
 
 export default (
-  <DrawerColAndBody
-    left
-    uxpId='drawer-col-and-body'
+  <DrawerExpAndBody
+    uxpId='drawer-exp-and-body'
+    left={false}
     withBiggerMargin={false}
+    withoutTopMargin={true}
     drawer={(
       <PageTitle uxpId='page-title-1'>
         Drawer data
@@ -16,5 +17,5 @@ export default (
     <PageTitle uxpId='page-title-2'>
       Content data
     </PageTitle>
-  </DrawerColAndBody>
+  </DrawerExpAndBody>
 )

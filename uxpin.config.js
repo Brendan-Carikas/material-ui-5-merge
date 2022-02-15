@@ -196,11 +196,11 @@ module.exports = {
       {
         name: 'Bart components',
         include: [
-          'src/components/DrawerColAndBody/DrawerColAndBody.tsx',
-          'src/components/DrawerExpAndBody/DrawerExpAndBody.tsx',
-          'src/components/FixedBody/FixedBody.tsx',
-          'src/components/InvotraTooltip/InvotraTooltip.tsx',
-          'src/components/PageTitle/PageTitle.tsx',
+          'src/Bart-components/wrappers/DrawerColAndBody/DrawerColAndBody.js',
+          'src/Bart-components/wrappers/DrawerExpAndBody/DrawerExpAndBody.js',
+          'src/Bart-components/wrappers/FixedBody/FixedBody.js',
+          // 'src/components/InvotraTooltip/InvotraTooltip.tsx',
+          'src/Bart-components/wrappers/PageTitle/PageTitle.js',
           'src/components/TestCard/TestCard.tsx',
           'src/components/DataGrid/DataGrid.tsx',
         ],
