@@ -2,15 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { default as FixedBodyExample } from '../../../Bart-components/FixedBody/FixedBody';
 
-function FixedBody(children,
-  className,
-  hasHeader) {
+function FixedBody(props) {
     return (
       <FixedBodyExample
-        hasHeader={hasHeader}
-        className={className}
+        hasHeader={props.hasHeader}
+        className={props.className}
       >
-        { children }
+        { props.children }
       </FixedBodyExample>
     );
 }

@@ -2,21 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { default as DrawerExpAndBodyExample } from '../../../Bart-components/DrawerExpAndBody/DrawerExpAndBody';
 
-function DrawerExpAndBody(children,
-  left,
-  withBiggerMargin,
-  drawer,
-  className,
-  withoutTopMargin) {
+function DrawerExpAndBody(props) {
     return (
       <DrawerExpAndBodyExample
-        left={left}
-        drawer={drawer}
-        withBiggerMargin={withBiggerMargin}
-        className={className}
-        withoutTopMargin={withoutTopMargin}
+        left={props.left}
+        drawer={props.drawer}
+        withBiggerMargin={props.withBiggerMargin}
+        className={props.className}
+        withoutTopMargin={props.withoutTopMargin}
       >
-        { children }
+        { props.children }
       </DrawerExpAndBodyExample>
     );
 }

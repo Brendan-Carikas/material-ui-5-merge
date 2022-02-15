@@ -2,15 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { default as PageTitleExample } from '../../../Bart-components/PageTitle/PageTitle';
 
-function PageTitle(children,
-  className,
-  compact) {
+function PageTitle(props) {
     return (
       <PageTitleExample
-        compact={compact}
-        className={className}
+        compact={props.compact}
+        className={props.className}
       >
-        { children }
+        { props.children }
       </PageTitleExample>
     );
 }
