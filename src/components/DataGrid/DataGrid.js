@@ -10,10 +10,10 @@ function DataGrid(props) {
 }
 
 DataGrid.propTypes = {
-  rows: PropTypes.array,
-  columns: PropTypes.array,
+  rows: PropTypes.arrayOf(PropTypes.object),
+  columns: PropTypes.arrayOf(PropTypes.object),
   pageSize: PropTypes.number,
-  rowsPerPageOptions: PropTypes.arrayOf(PropTypes.number) | PropTypes.number,
+  rowsPerPageOptions: PropTypes.arrayOf(PropTypes.number),
   checkboxSelection: PropTypes.bool,
   disableSelectionOnClick: PropTypes.bool
 };
