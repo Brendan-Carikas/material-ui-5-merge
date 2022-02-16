@@ -138,7 +138,6 @@ module.exports = {
           'src/components/Pagination/Pagination.js',
           'src/components/Stepper/Stepper.js',
           // 'src/components/SpeedDial/SpeedDial.js',
-          'src/components/Tabs/Tabs.js',
         ]
       },
       {
@@ -199,6 +198,7 @@ module.exports = {
           'src/Bart-components/wrappers/DrawerExpAndBody/DrawerExpAndBody.js',
           'src/Bart-components/wrappers/FixedBody/FixedBody.js',
           'src/components/Tab/Tab.js',
+          'src/components/Tabs/Tabs.js',
           // 'src/components/InvotraTooltip/InvotraTooltip.tsx',
           'src/Bart-components/wrappers/PageTitle/PageTitle.js',
           'src/components/TestCard/TestCard.tsx',
