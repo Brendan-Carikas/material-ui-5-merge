@@ -198,7 +198,7 @@ module.exports = {
           'src/Bart-components/wrappers/DrawerColAndBody/DrawerColAndBody.js',
           'src/Bart-components/wrappers/DrawerExpAndBody/DrawerExpAndBody.js',
           'src/Bart-components/wrappers/FixedBody/FixedBody.js',
-          'src/components/Tab/Tab.js',
+          'src/components/Tabs/Tabs.js',
           // 'src/components/InvotraTooltip/InvotraTooltip.tsx',
           'src/Bart-components/wrappers/PageTitle/PageTitle.js',
           'src/components/TestCard/TestCard.tsx',
