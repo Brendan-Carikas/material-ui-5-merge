@@ -1,22 +1,25 @@
 @import '../../styles/variables.scss';
-@import '../../styles/mixins';
+@import '../../styles/mixins.scss';
 
 .invotra-fixed-body {
   width: 100vw;
 
   &-inner {
-    margin: auto 200px;
+    padding-right: 200px;
+    padding-left: 200px;
     width: 100%;
     max-width: 1040px;
 
     @include mui_grid_breakpoint_max(medium-desktop) {
       max-width: 840px;
-      margin: auto 92px;
+      padding-left: 92px;
+      padding-right: 92px;
     }
 
     @include mui_grid_breakpoint_max(desktop) {
       max-width: 840px;
-      margin: auto 60px;
+      padding-left: 60px;
+      padding-right: 60px;
     }
 
     @include mui_grid_breakpoint_max(large-tablet) {
