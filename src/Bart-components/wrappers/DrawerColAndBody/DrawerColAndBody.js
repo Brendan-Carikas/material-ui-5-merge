@@ -14,6 +14,7 @@ function DrawerColAndBody(props) {
     </DrawerColAndBodyExample>
   );
 }
+
 DrawerColAndBody.propTypes = {
   children: PropTypes.node,
   centered: PropTypes.bool,

@@ -202,7 +202,7 @@ module.exports = {
           // 'src/components/InvotraTooltip/InvotraTooltip.tsx',
           'src/Bart-components/wrappers/PageTitle/PageTitle.js',
           'src/components/TestCard/TestCard.tsx',
-          'src/components/DataGrid/DataGrid.tsx',
+          'src/Bart-components/wrappers/DataGrid/DataGrid.js',
         ],
       }
     ],
